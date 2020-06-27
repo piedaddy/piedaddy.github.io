@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+  padding:0px;
+  margin: 0px;
+}
+
+body{
+  display:flex; 
+  flex-direction:column;
+  width:100vw;
+  font-family: 'Muli', sans-serif;
+}
+
+h1 {
+  font-size: 2.4em;
+  color: $primary-color;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.8em;
+}

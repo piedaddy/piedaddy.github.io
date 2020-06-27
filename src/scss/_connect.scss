@@ -1,0 +1,78 @@
+.connect {
+  //background-color: $secondary-color;
+  background-color: $dark-color;
+  text-align: center;
+  //height:50vh;
+
+  @media (min-width: 320px) {
+    padding: 0em 1.5em;
+    // height:20vh;
+    width: 100vw;
+  }
+
+  h3 {
+    color: $primary-color;
+    @media (min-width: 320px) {
+      padding: 1.2em 0 0.5em;
+    }
+  }
+
+  a {
+    @media (min-width: 320px) {
+      //padding:.6em;
+    }
+  }
+
+  p {
+    color: $secondary-color;
+    padding: 0em 1em 1em;
+  }
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  //height:50vh;
+
+  @media (min-width: 320px) {
+    padding: 2.5em 3em 0;
+  }
+}
+
+.contact_icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 1.6em;
+  transition: all 0.3s ease-in-out;
+
+  :hover {
+    transform: scale(1.1);
+  }
+
+  @media (min-width: 1000px) {
+    justify-content: center;
+  }
+}
+
+.fas {
+  color: $secondary-color;
+  text-decoration: none;
+
+  @media (min-width: 320px) {
+    padding-bottom: 1em;
+    font-size: 3.5em;
+  }
+
+  @media (min-width: 1000px) {
+    padding: 1em 1em;
+   // font-size: 3em;
+  }
+}
+
+.email_icon {
+  transition: all 0.7s ease-in-out;
+  :hover {
+    transform: scale(1.1);
+  }
+}

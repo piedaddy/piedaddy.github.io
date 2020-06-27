@@ -1,0 +1,154 @@
+.home {
+  background-image: url("../img/flower.jpg");
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media (min-width: 320px) {
+    height: 75vh;
+  }
+  // @media (min-width:500px) {
+  //   height:75vh;
+  // }
+  // @media (min-width:600px) {
+  //   height:55vh;
+  // }
+  // @media (min-width:836px) {
+  //   height:59vh;
+  // }
+
+  // @media (min-width:900px) {
+  //   height:60vh;
+  // }
+  // @media (min-width:1055px) {
+  //   height:63vh;
+  // }
+}
+
+.home .intro {
+  // position: absolute;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  color: rgb(231, 221, 187);
+  background-color: rgba(35, 35, 35, 0.5);
+  @media (min-width: 320px) {
+    padding: 2.5em;
+    margin: 0;
+    padding: 2em 0;
+    height: 75vh;
+  }
+  // @media (min-width:500px) {
+  //   height:50vh;
+  // }
+  // @media (min-width:600px) {
+  //   height:55vh;
+  // }
+  // @media (min-width:836px) {
+  //   height:59vh;
+  // }
+  // @media (min-width:900px) {
+  //   height:60vh;
+  // }
+  // @media (min-width:1055px) {
+  //   height:63vh;
+  // }
+
+  h1 {
+    @media (min-width: 320px) {
+     // max-height: 50vh;
+      font-size: 3.5em;
+    }
+    @media (min-width:425px) {
+      font-size:3.8em;
+    }
+
+    @media (min-width: 517px) {
+      font-size: 4.4em;
+      padding: 0 1.5em;
+    }
+
+    @media (min-width: 685px) {
+     // font-size: 4.2em;
+      padding: 0 2em;
+    }
+
+    @media (min-width: 741px) {
+      font-size: 4.5em;
+      padding: 0 2.3em;
+    }
+ 
+    @media (min-width:836px) {
+      font-size:5em;
+      padding:0em;
+    }
+    @media (min-width: 1000px) {
+      font-size: 6em;
+
+      // padding: 0 1.5em .3em;
+    }
+    @media (min-width: 1337px) {
+      font-size: 6.2em;
+      padding: 0 1.9em 0.3em;
+    }
+    @media (min-width: 1430px) {
+      font-size: 6.5em;
+      padding: 0 1.5em 0.6em;
+    }
+  }
+
+  // h2 {
+  //   font-weight:300;
+  //   @media (min-width:320px) {
+  //     font-size:1.8em;
+  //     max-height: 50vh;
+  //   }
+
+  // }
+
+  span {
+    @media (min-width: 320px) {
+      font-size: 1em;
+      //padding:2em 0;
+      // margin-top: 2em;
+    }
+  
+    @media (min-width: 1000px) {
+      font-size: 1.7em;
+
+    }
+  }
+
+  p {
+    @media (min-width: 320px) {
+      font-size: 1.5em;
+      padding-bottom: 0.5em;
+    }
+    @media (min-width: 400px) {
+      // font-size:1.4em;
+    }
+    @media (min-width: 524px) {
+      font-size: 1.6em;
+    }
+
+    @media (min-width: 612px) {
+     // font-size: 2em;
+    }
+    @media (min-width: 780px) {
+      font-size: 1.8em;
+    }
+
+    @media (min-width: 1000px) {
+      font-size: 2em;
+    }
+    @media (min-width: 1337px) {
+      font-size: 2.1em;
+    }
+    @media (min-width: 1430px) {
+      //font-size: 2.2em;
+    }
+  }
+}

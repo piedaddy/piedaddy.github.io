@@ -1,0 +1,133 @@
+
+.port {
+  background-color: $secondary-color ;
+}
+
+.skills {
+  display:flex; 
+  flex-direction: column;
+  align-content: center;
+  margin: .2em;
+  padding-bottom: 1em;
+
+}
+
+.skills h2 {
+  color: $primary-color;
+  text-align: center;
+  padding-bottom: 1em;
+
+}
+
+.skills > div {
+  display: flex;
+  position: relative; 
+  background-color: $primary-color;
+  margin: .6em 2em;
+  height:1.3em;
+}
+
+.skills .skill {
+  width: 5.5em;
+  font-weight: bold;
+  
+  background-color: $dark-color; 
+  padding: .5em .4em;
+
+  font-size: 1.1em;
+  color:$secondary-color;
+
+  @media (min-width:320px) {
+      font-size: .54em;
+  }
+}
+
+.skills .bar {
+  background-color: $tertiary-color;
+  width:4em;
+  flex-basis: 0; 
+}
+
+.skills .padding {
+  flex-basis: 0; 
+}
+
+.skills .number {
+  background-color: $primary-color;
+  position: absolute;
+  right: 0; 
+  top: 0;
+  height:100%;
+  display:flex;
+  align-items:center;
+  padding-right: .5em;
+
+  @media (min-width:320px) {
+      font-size: .6em;
+  }
+}
+
+.skills > div.HTML .bar {
+  flex-grow:80;
+}
+
+.skills > div.HTML .padding {
+  flex-grow:20;
+}
+
+.skills > div.Css .bar {
+  flex-grow:80;
+}
+
+.skills > div.Css .padding {
+  flex-grow:20;
+}
+
+.skills > div.Javascript .bar {
+  flex-grow:80;
+}
+
+.skills > div.Javascript .padding {
+  flex-grow:20;
+}
+
+.skills > div.React .bar {
+  flex-grow:75;
+}
+
+.skills > div.React .padding {
+  flex-grow:25;
+}
+
+.skills > div.jQuery .bar {
+  flex-grow:70;
+}
+
+.skills > div.jQuery .padding {
+  flex-grow:30;
+}
+
+.skills > div.PHP .bar {
+  flex-grow:80;
+}
+
+.skills > div.PHP .padding {
+  flex-grow:20;
+}
+
+.skills > div.Lavarel .bar {
+  flex-grow:80;
+}
+
+.skills > div.Lavarel .padding {
+  flex-grow:20;
+}
+
+// .skills > div.UX .bar {
+//     flex-grow:50;
+// }
+
+// .skills > div.UX .padding {
+//     flex-grow:50;
+// }
+

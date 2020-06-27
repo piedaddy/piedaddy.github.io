@@ -1,0 +1,62 @@
+
+.plan {
+  display:flex; 
+  justify-content: baseline;
+  background-color: $dark-color;   
+  width: 100vw;
+  @media (min-width:320px) {
+    height: 50vh;
+  }
+
+}
+
+.plan .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative; 
+  overflow:hidden;
+}
+
+.plan h3 {
+  color: $secondary-color; 
+  font-weight: 300;
+  padding-top: 2em;
+
+  @media (min-width:320px) {
+      padding-top: 3em;
+      font-size: 1.2em;
+  }
+}
+
+.plan p {
+  color: $primary-color; 
+  font-size: 1em;
+  margin: 1em 2em;
+  padding: 0;
+
+  @media (min-width:320px) {
+      font-size: .7em;
+      margin: 1em 1em;
+      line-height: 1.2em;
+  }
+}
+
+.plan .circle {
+  width: 125px; 
+  height: 125px;
+  top: -80px;
+
+
+  @media (min-width:320px) {
+      width: 75px; 
+      height: 75px;
+      top: -45px;
+      border-radius: 50%; 
+      position: absolute; 
+      background-color: $tertiary-color;
+
+  }
+
+}
